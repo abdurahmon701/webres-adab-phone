@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(230, 251, 255);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+
+
+}
+.a button{
+    width: 173px;
+    height: 48px;
+    background: #BA4270;
+    border-radius: 25px;
+    border: none;
+    color: white;
+}
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+}
+.a a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    background-color: rgb(230, 251, 255);
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+.right img{
+    width: 265px;
+    height: 500px;
+}
+.right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left h1{
+    font-size: 50px;
+    width: 50%;
+    color: black;
+}
+.left{
+    width: 50%;
+}
+.a img{
+    display: none;
+}
+.lr{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin: auto;
+}
+.r h1{
+    font-family: DM Serif Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.3692307770252228px;
+    text-align: left;
+}
+.r p{
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 30%;
+    height: 170px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+}
+.ll a{
+    text-decoration: none;
+    color: white;
+}
+.ll{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rr{
+    width: 20%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:800px){
+    header{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .a{
+        width: 80%;
+    }
+    .box{
+        margin: auto;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .lr{
+        margin: auto;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .r{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+    }
+    .l{
+        width: 80%;
+    }
+    .left h1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+    }
+    .left{
+        width: 100%;
+    }
+    .r img{
+        width: 100%;
+    }
+    .card{
+        width: 20%;
+    }
+    .card img{
+        width: 50%;
+    }
+    .card p{
+        font-size: 15px;
+    }
+    footer{
+        width: 100%;
+    }
+    .ll{
+        width: 70%;
+    }
+}
+@media(max-width: 420px){
+    .a a{
+        display: none;
+    }
+    .a button{
+        display: none;
+    }
+    .a img{
+        display: block;
+    }
+    .box{
+        margin: auto;
+        width: 100%;
+    }
+    .left h1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;font-size: 40px ;
+    }
+    .left{
+        width: 100%;
+    }
+    .lr{
+        margin: auto;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .r{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        font-size: 10px;
+    }
+    .r h1{
+        font-size: 30px;
+    }
+    .r p{
+        font-size: 10px     ;
+    }
+    .l{
+        width: 80%;
+    }
+    .l img{
+        width: 100%;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        width: 70%;
+        margin-top: 5%;
+    }
+    .card img{
+        width: 30%;
+    }
+    .card p{
+        font-size: 15x;
+    }
+    .card{
+        height: 130px;
+    }
+    footer{
+        width: 100%;
+        height: 300px;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 10%;
+    }
+    .ll{
+        flex-direction: column;
+    }
+    .ll a{
+        line-height: 35px;
+    }
+}
